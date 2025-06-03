@@ -5862,7 +5862,6 @@
 		(property "Value" "Conn_02x04_Odd_Even"
 			(at 3 4.7 90)
 			(layer "F.Fab")
-			(hide yes)
 			(uuid "b429946d-aa8f-4f01-989f-75af4f6eb1cc")
 			(effects
 				(font
