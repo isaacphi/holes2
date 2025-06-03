@@ -213,3 +213,20 @@ def create_connector(sch: SchematicEditor, conn_type: str, pin_count: int,
         # ... etc
             
     return sch.add_symbol(symbol_ref, ref, x, y)
+
+
+def main():
+    """Main entry point for the kicad_utils CLI"""
+    print("KiCad Utilities - Schematic automation tools")
+    print("Use this module to programmatically manipulate KiCad schematics")
+    
+    # Example usage
+    print("\nExample usage:")
+    print("from kicad_utils import SchematicEditor")
+    print("sch = SchematicEditor('path/to/schematic.kicad_sch')")
+    print("sch.add_symbol('Device:R', 'R1', 50, 50)")
+    print("sch.save()")
+
+
+if __name__ == "__main__":
+    main()
