@@ -22,7 +22,13 @@ build/
 # Project specific
 holes-backups/
 *holes-backups*/
+fp-info-cache
 
 # Temporary files
 ~*
 *~
+\#*
+.python_version
+
+# Mac
+.DS_STORE
